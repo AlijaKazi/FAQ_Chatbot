@@ -1,0 +1,72 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening",
+  "What's up?", "Howdy", "Hi there", "Hey buddy", "Greetings",
+  "Yo", "Heya", "Hiya", "Hello there", "Nice to meet you"],
+      "responses": ["Hello! How can I help you?", "Hey there!", "Hi! What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Catch you later", "Talk to you soon", "Farewell", "See ya", "Later", "I'm leaving", "Take care","bye bye","bye","Nice to meet you","farewell","See you soon"],
+      "responses": ["Goodbye!", "See you later!", "Have a great day!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need assistance", "Help me please", "I need support", "Can you assist me?", "I need help", "Support me", "Help", "Assist me", "Can you guide me?","Help me","I need your help","Guide me","Guidance","Can you support me?"],
+      "responses": ["Sure! What do you need help with?", "I'm here to assist!", "Let me know how I can help."]
+    },
+    {
+      "tag": "services",
+      "patterns": ["What services do you offer?", "Tell me about your services", "Do you provide consulting?", "What can you help me with?", "List your services", "What do you do?", "What kind of services?", "Explain your offerings", "Do you offer development?", "Do you do automation?","Do you offer AI?","How can you help me?","What services can you help me with?","Service i need","What do you offer to users?"],
+      "responses": ["We offer AI consulting, chatbot development, and automation services tailored to your needs."]
+    },
+    {
+      "tag": "create_account",
+      "patterns": ["How can I create an account?", "Sign me up", "Register a new account", "I want to join", "Create profile", "Open an account", "Start registration", "Sign up process", "How do I register?", "Join now","How do I sign up?","How to open an account","Account open","How can i join","How to create profile"],
+      "responses": ["To create an account, click on the 'Sign Up' button on the top right corner of our website and follow the instructions."]
+    },
+    {
+      "tag": "track_order",
+      "patterns": ["How can I track my order?", "Where is my package?", "Track my shipment", "Order status", "Check delivery", "Track order", "Delivery update", "Is my order shipped?", "Find my order", "Order tracking","How to track order","How to track package","How to get my delivery update","How can i find my order","How can i find my package delivery update"],
+      "responses": ["You can track your order by logging into your account and navigating to the 'Order History' section."]
+    },
+    {
+      "tag": "gift_order",
+      "patterns": ["Can I order a product as a gift?", "Is gift ordering available?", "Can I send a gift?", "How do I order a gift?", "Do you offer gift delivery?", "Gift option", "Send gift", "Gift wrap available?", "Can I gift someone?", "Gift purchase","Can I ship directly to the recipient?",
+  "Is there a gift message option?",
+  "Can I include a note with the gift?",
+  "Do you offer gift packaging?",
+  "Can I surprise someone with a gift?"],
+      "responses": ["Yes, you can order a product as a gift and have it shipped directly to the recipient."]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": ["What is your return policy?", "Can I return a product?", "How do I return an item?", "Is return available?", "Can I get a refund?", "Return process", "Refund policy", "Return item", "Exchange product", "Return instructions","Do you accept returns?",
+  "Is there a return window?",
+  "Can I exchange my order?",
+  "How do I request a refund?",
+  "Where do I send returns?"],
+      "responses": ["You can return products within 30 days of purchase. Please ensure they are in original condition and packaging."]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["What payment methods do you accept?", "Can I pay with PayPal?", "Do you take credit cards?", "How can I pay?", "Is cash on delivery available?", "Payment options", "Accepted payments", "How do I pay?", "Can I use UPI?", "Do you accept debit cards?","Do you accept international cards?",
+  "Can I pay with a gift card?",
+  "Is wallet payment supported?",
+  "Can I pay on delivery?",
+  "Do you accept Razorpay or PhonePe?"],
+      "responses": ["We accept credit/debit cards, PayPal, and UPI. Cash on delivery is available in select regions."]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": ["How can I contact support?", "I need to talk to customer service", "Is there a support number?", "Can I email support?", "Help me reach support", "Customer care", "Support contact", "Talk to support", "Reach out for help", "Support team","How do I get in touch with support?",
+  "Is your support team available?",
+  "Can I speak to someone?",
+  "I need help from your team",
+  "How do I contact customer care?"],
+      "responses": ["You can reach our support team via email at support@example.com or call us at +91-1234567890."]
+    }
+  ]
+}
