@@ -23,7 +23,7 @@ This guide explains how to set up the Python backend and Node.js frontend, insta
 ```for frontend```
 # Open folder
    cd faq-chatbot
-# Install nodel modules
+# Install node modules
    npm install
 # Run frontend
    npm start
