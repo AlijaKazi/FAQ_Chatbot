@@ -13,7 +13,7 @@ This guide explains how to set up the Python backend and Node.js frontend, insta
 # Install required Python libraries
    pip install -r requirements.txt
    pip install numpy 
-   pip install tensorflow==2.19.1
+   pip install tensorflow
    pip install scikit-learn
 # Train the model
    python train_model.py
