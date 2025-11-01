@@ -12,11 +12,10 @@ app = Flask(__name__)
 CORS(app)
 
 # Load model and tokenizer
-model = tf.keras.models.load_model("model/chatbot_model.h5")
-tokenizer = pickle.load(open("model/tokenizer.pkl", "rb"))
-labels = pickle.load(open("model/labels.pkl", "rb"))
-
-with open("data/intents.json", "r", encoding="utf-8") as f:
+model = tf.keras.models.load_model("faq-chatbot/model/chatbot_model.h5")
+tokenizer = pickle.load(open("faq-chatbot/model/tokenizer.pkl", "rb"))
+labels = pickle.load(open("faq-chatbot/model/labels.pkl", "rb"))
+with open("faq-chatbot/data/intents.json", "r", encoding="utf-8") as f:
     intents = json.load(f)
 
 max_len = 20
@@ -72,5 +71,6 @@ if __name__ == "__main__":
     import os
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
+
 
 
